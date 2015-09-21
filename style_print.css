@@ -1,0 +1,365 @@
+body {
+	font-family: sans-serif;
+	padding: 0px;
+	margin: 0px;
+	background-color: #FFFFFF;
+	font-size: 100%;
+}
+
+header {
+	background-color: #FFFFFF;
+	color: #000000;
+	padding: 0px;
+	font-size: 110%;
+}
+
+header h1 {
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+}
+
+#bodyContent {
+	padding: 0px;
+}
+
+ul {
+	margin: 0px;
+}
+
+h2 {
+	font-size: 110%;
+}
+
+h3 {
+	font-size: 105%;
+	margin-bottom: 0px;
+}
+
+.actions {
+	display: none;
+	
+}
+
+.contentBox {
+	background-color: #FFFFFF;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 10px;
+	padding: 0px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000000;
+}
+
+.contentBoxInline {
+	display: inline-block;
+}
+
+.contentBox h2 {
+	margin-top: 0;
+}
+
+table {
+	border-collapse: collapse;
+	font-size: 100%;
+}
+
+table, th, td {
+	border: 1px solid #2B2B2B;
+}
+
+td {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.right {
+	text-align: right;
+}
+
+.negative {
+	color: #FF0000;
+}
+
+.tableRowDark {
+	background-color: #DDDDDD;
+}
+
+.tableRowEmpty {
+	text-align: center;
+}
+
+thead {
+		background-color: #FFFFFF;
+		color: #000000;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:active {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+h1 a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+h1 a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #8B8B8B;
+	text-decoration: underline;
+}
+
+.pagination {
+	display: inline-block;
+	padding: 0px 5px;
+	margin-right: 2px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	border-radius: 3px;
+	border: solid 1px #CCCCCC;
+	background-color: #E8E8E8;
+	font-weight: bold;
+	text-decoration: none;
+	color: #2B2B2B;
+	font-size: .875em;
+}
+
+.pagination:hover {
+	background-color: #fefefe;
+}
+
+.pagination.active {
+	border: solid 1px #2B2B2B;
+	background-color: #2B2B2B;
+	color: #FFFFFF;
+}
+
+.formUl {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.formTableRow {
+	clear: both;
+	padding: 1px;
+	padding-bottom: 5px;
+	background-color: #FFF;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #2B2B2B;
+}
+
+.formTableRow:after {
+	content: " ";
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+
+.formTableCell75 {
+	width: 75px;
+	float: left;
+	margin-right: 5px;
+	height: 45px;
+}
+
+.formTableCell100 {
+	width: 100px;
+	float: left;
+	margin-right: 5px;
+	height: 45px;
+}
+
+.formTableCell150 {
+	width: 150px;
+	float: left;
+	margin-right: 5px;
+	height: 45px;
+}
+
+.formTableCell200 {
+	width: 200px;
+	float: left;
+	margin-right: 5px;
+	height: 45px;
+}
+
+.formTableCell300 {
+	width: 300px;
+	float: left;
+	margin-right: 5px;
+	height: 45px;
+}
+
+form {
+	margin: 0px;
+}
+
+label {
+	width: 150px;
+	display: inline-block;
+	float: left;
+	margin-top: 3px;
+	font-weight: bold;
+}
+
+.formInput {
+	width: 250px;
+	margin-right: 8px;
+	border-style: none;
+	border-bottom: 1px solid #000000;
+}
+
+.formInputSmall {
+	width: 100px;
+	margin-right: 8px;
+	border-style: none;
+	border-style: none;
+	border-bottom: 1px solid #000000;
+}
+
+.formInput75 {
+	width: 75px;
+	border-style: none;
+	border-style: none;
+	border-bottom: 1px solid #000000;
+}
+
+.formInput100 {
+	width: 100px;
+	border-style: none;
+	border-style: none;
+	border-bottom: 1px solid #000000;
+}
+
+.formInput200 {
+	width: 200px;
+	border-style: none;
+	border-style: none;
+	border-bottom: 1px solid #000000;
+}
+
+.formInput300 {
+	width: 300px;
+	border-style: none;
+	border-style: none;
+	border-bottom: 1px solid #000000;
+}
+
+.formLabel75 {
+	width: 75px;
+	float: left;
+	font-weight: bold;
+}
+
+.formLabel100 {
+	width: 100px;
+	float: left;
+	font-weight: bold;
+}
+
+.formLabel150 {
+	width: 150px;
+	float: left;
+	font-weight: bold;
+}
+
+.formLabel200 {
+	width: 200px;
+	float: left;
+	font-weight: bold;
+}
+
+.formLabel300 {
+	width: 300px;
+	float: left;
+	font-weight: bold;
+}
+
+.formUl li {
+	padding: 0px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.formUl li:first-child, .formUl li:last-child {
+	border-top: 3px solid #DDD;
+}
+
+.formUl li:last-child {
+	border-bottom: 0px;
+}
+
+.formRequired {
+	font-weight: bold;
+	color: #FF0000;
+}
+
+.formHint {
+	color: #2B2B2B;
+}
+
+.uebersichtImg {
+	vertical-align: top;
+	margin-top: 45px;
+}
+
+.width100 {
+	float: left;
+	width: 100px;
+}
+
+.width200 {
+	float: left;
+	width: 200px;
+}
+
+.width100right {
+	width: 80px;
+	float: left;
+	text-align: right;
+	margin-right: 10px;
+}
+
+.invisibleUl {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.geld {
+	text-align: right;
+}
+
+.geldNegativ {
+	text-align: right;
+	color: #FF0000;
+}
+
+#headerLoginBox {
+	display: none;
+}
+
+#headerLoginLink {
+	display: none;
+}
+
+.headerLink {
+	display: none;
+}
